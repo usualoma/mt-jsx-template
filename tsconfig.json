@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "lib": ["esnext", "DOM"],
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "inlineSources": true,
+        "noEmit": false,
+        "outDir": "./dist",
+        "jsx": "react-jsx",
+        "jsxImportSource": "./src",
+      },
+      "include": ["src/**/*.tsx", "src/**/*.ts"],
+  }
