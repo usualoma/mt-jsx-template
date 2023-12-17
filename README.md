@@ -22,7 +22,7 @@ $ npx mt-jsx-template source --outdir template
 $ npm install --save-dev mt-jsx-template
 ```
 
-and tsconfig.json
+And tsconfig.json
 
 ```json
 {
@@ -32,5 +32,7 @@ and tsconfig.json
   }
 }
 ```
+
+Then you can refer to the MT tag type as follows.
 
 ![Screenshot](https://raw.githubusercontent.com/usualoma/mt-jsx-template/main/artwork/screenshot.jpg)
