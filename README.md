@@ -1,11 +1,13 @@
 # mt-jsx-template
 
+This is a library and command line tool that allows you to write MTML (Movable Type Markup Language) in TSX.
+
 ## Usage
 
 ### Transpile .mtml.tsx to .mtml
 
 ```
-$ npx mt-jsx-template source.mtml.tsx
+$ npx mt-jsx-template source.mtml.tsx > template.mtml
 ```
 
 ### Transpile multiple files in a directory
@@ -30,3 +32,5 @@ and tsconfig.json
   }
 }
 ```
+
+![Screenshot](https://raw.githubusercontent.com/usualoma/mt-jsx-template/main/artwork/screenshot.jpg)
